@@ -25,89 +25,23 @@ mulai = time.time()
 #untuk membatasi assist tambahkan tanda pagar sebelum nama assist
 print  ("Welcome login self")
 boy = LineClient()
-boy = LineClient(authToken="EFitAQlaqdMz659xrog4.v1HrXTya8vs3Kmp/GY36La.YK0lAHUSB+3cZrROYJicXyV6BW28n59IPL3+6so7DgU=")
+#boy = LineClient(authToken="EFitAQlaqdMz659xrog4.v1HrXTya8vs3Kmp/GY36La.YK0lAHUSB+3cZrROYJicXyV6BW28n59IPL3+6so7DgU=")
 channel = LineChannel(boy,boy.server.CHANNEL_ID['LINE_TIMELINE'])
 boy.log("Auth Token : " + str(boy.authToken))
-print ("Welcome login k1")
-k1 = LineClient()
-k1 = LineClient(authToken="EF4BHMmQ5u4VFq6Y5Ib7.eFLiD/q6XzekkEvsWRD+LW.6uek51USBdCcLLMzRJjUdOUg+aH6hjXq+Iayr6EDrFs=")
-channel = LineChannel(k1,k1.server.CHANNEL_ID['LINE_TIMELINE'])
-k1.log("Auth Token : " + str(k1.authToken))
-print ("Welcome login k2")
-k2 = LineClient()
-k2 = LineClient(authToken="EFsZvhY9uw34tldCaKZe.yDd/ESRdVqhoxLV9ogigNG.ezy1afz+qRMfTvLg+p3RpwFvcS3QTkTK3K3OXqciKKc=")
-channel = LineChannel(k2,k2.server.CHANNEL_ID['LINE_TIMELINE'])
-k2.log("Auth Token : " + str(k2.authToken))
-print ("Welcome login k3")
-k3 = LineClient()
-k3 = LineClient(authToken="EFe5izmDv4hXO7WFx4S7.8d+/mNO13JPYidbljC3nvW.v7MYs576Lz4OErM3726WNJl5OSK2ossi8Cw9aawK/wk=")
-channel = LineChannel(k3,k3.server.CHANNEL_ID['LINE_TIMELINE'])
-k3.log("Auth Token : " + str(k3.authToken))
-print ("Welcome login k4")
-k4 = LineClient()
-k4 = LineClient(authToken="EFn5cKLIksAFqj6CDoB9.NS79GkjXPX2SeYabibJEAq.r8KKfOnmfDkQoNwNVVMO1wdXUHhwH14ilAfuwG1+a7M=")
-channel = LineChannel(k4,k4.server.CHANNEL_ID['LINE_TIMELINE'])
-k4.log("Auth Token : " + str(k4.authToken))
-print ("Welcome login k5")
-k5 = LineClient()
-k5 = LineClient(authToken="EFdR4hB237JjKGxDYSW4.DEkgt/uG902ZLFOdfK325a.ZDMtRK7uiI+B3V8q5s8wglZz0NWd/rMAu57RN5e0tgU=")
-channel = LineChannel(k5,k5.server.CHANNEL_ID['LINE_TIMELINE'])
-k5.log("Auth Token : " + str(k5.authToken))
-print ("Welcome login k6")
-k6 = LineClient()
-k6 = LineClient(authToken="EF5yaohc7GcnExGpPtAb.iEKLQqr+KXdSVGWpsvd/QW.hGk1ZTM44oa6VUxNGz9DSQmqEAlkbeBcpE0cUwnLdzs=")
-channel = LineChannel(k6,k6.server.CHANNEL_ID['LINE_TIMELINE'])
-k6.log("Auth Token : " + str(k6.authToken))
-print ("Welcome login k7")
-k7 = LineClient()
-k7 = LineClient(authToken="EF49wrk3oIrh1lWyRnF0.nvD/uRjfRoBETK4ZOWhZSa.3GJMLgxnJ6CoFaOaNBjmkNGhjDOjPDsCIdJVBtpnCng=")
-channel = LineChannel(k7,k7.server.CHANNEL_ID['LINE_TIMELINE'])
-k7.log("Auth Token : " + str(k7.authToken))
-print ("Welcome login k8")
-k8 = LineClient()
-k8 = LineClient(authToken="EFgS2ZfQ1QJRlkCY4SM4./Coef04cSd1Ymaih+V2ADa.+gZ7mkM8pohBkL97g7IjWacuqwgaM6RDyLCetjtxA7k=")
-channel = LineChannel(k8,k8.server.CHANNEL_ID['LINE_TIMELINE'])
-k8.log("Auth Token : " + str(k8.authToken))
-print ("Welcome login k9")
-k9 = LineClient()
-k9 = LineClient(authToken="EFxz3gcU6jR2r9kVpBtd.CNZNgt3iUc3fYRhn7Cibxq.ZFDLg9tjWWDGIVpL3n3tIYxL3ItOSoDqE8tQJuJJXGs=")
-channel = LineChannel(k9,k9.server.CHANNEL_ID['LINE_TIMELINE'])
-k9.log("Auth Token : " + str(k9.authToken))
-print ("Welcome k10")
-k10 = LineClient()
-k10 = LineClient(authToken="EF7TyOILOHV0TP6klwic.CCslx0hiYMYz0Wkvw5ctJa.14G3GTT0fDBmvH19TNOfdji4y37Sq5qcn8Pg3nAxeiE=")
-channel = LineChannel(k10,k10.server.CHANNEL_ID['LINE_TIMELINE'])
-k10.log("Auth Token : " + str(k10.authToken))
-print ("Welcome login ghost")
-sw = LineClient()
-sw = LineClient(authToken="EFM2cbaCnyFE9HuoQIJ7.4ciXpOp+ngV1ye23dcM5vW.1S8XY3coh5Rwz6LqUMMalXxKCtnq2BvvNQwvg27kOQU=")
-channel = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
-sw.log("Auth Token : " + str(sw.authToken))
 
 print ("รєใғв๏ҭ вұ: ⊰์◉⊱τ∉∂m d®∂ⓖ๏n ❂Ғ w∂®®¡๏®⊰์◉⊱")
 
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(boy)
 call = boy
-creator = ["u35577e52b245ace6deb64e33a301f3b0"]
-owner = ["u35577e52b245ace6deb64e33a301f3b0"]
-admin = ["u35577e52b245ace6deb64e33a301f3b0"]
-staff = ["u35577e52b245ace6deb64e33a301f3b0"]
+creator = ["ua45a39439ea66b2b251ece1d37fbe251"]
+owner = ["ua45a39439ea66b2b251ece1d37fbe251"]
+admin = ["ua45a39439ea66b2b251ece1d37fbe251"]
+staff = ["ua45a39439ea66b2b251ece1d37fbe251"]
 mid = boy.getProfile().mid
-Amid = k1.getProfile().mid
-Bmid = k2.getProfile().mid
-Cmid = k3.getProfile().mid
-Dmid = k4.getProfile().mid
-Emid = k5.getProfile().mid
-Fmid = k6.getProfile().mid
-Gmid = k7.getProfile().mid
-Hmid = k8.getProfile().mid
-Imid = k9.getProfile().mid
-Jmid = k10.getProfile().mid
-Zmid = sw.getProfile().mid
-KAC = [boy,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,sw]
-ABC = [boy,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,sw]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Zmid]
+KAC = [boy]
+ABC = [boy]
+Bots = [mid]
 Boy = admin + staff + creator
 
 protectqr = []
@@ -136,18 +70,6 @@ boyProfile = boy.getProfile()
 myProfile["displayName"] = boyProfile.displayName
 myProfile["statusMessage"] = boyProfile.statusMessage
 myProfile["pictureStatus"] = boyProfile.pictureStatus
-
-responsename1 = k1.getProfile().displayName
-responsename2 = k2.getProfile().displayName
-responsename3 = k3.getProfile().displayName
-responsename4 = k4.getProfile().displayName
-responsename5 = k5.getProfile().displayName
-responsename6 = k6.getProfile().displayName
-responsename7 = k7.getProfile().displayName
-responsename8 = k8.getProfile().displayName
-responsename9 = k9.getProfile().displayName
-responsename10 = k10.getProfile().displayName
-responsename = sw.getProfile().displayName
 
 cctv = {
     "cyduk":{},
@@ -551,7 +473,7 @@ def help2():
                   "      ◄]·❍✯͜͡⊰์◉⊱ ͣ ͫ͢ŚhÀH•ŹÀ!η✯͜͡❂➣·[►" + "\n" + \
                   "╚═══════════════════════╝"
     return helpMessage2
-    boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+    boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
 
 def helpbot():
@@ -618,7 +540,7 @@ def helpbot():
                   "      ◄]·❍✯͜͡⊰์◉⊱ ͣ ͫ͢ŚhÀH•ŹÀ!η✯͜͡❂➣·[►" + "\n" + \
                   "╚═══════════════════════╝"
     return helpMessage3
-    boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+    boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
 def infomeme():
     helpMessage4 = """
@@ -661,7 +583,7 @@ def infomeme():
 ╚═══════════════════════╝
 """
     return helpMessage4
-    boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+    boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
 def bot(op):
     global time
@@ -847,7 +769,7 @@ def bot(op):
                   boy.findAndAddContactsByMid(op.param1)
                   sendMention(op.param1, op.param1, "ђคīī ", ", ҭєгī๓ค кครīђ รม๔คђ ค๔๔ รคұค")
                   boy.sendText(op.param1, wait["message"])
-                  boy.sendContact(op.param1,"u35577e52b245ace6deb64e33a301f3b0")
+                  boy.sendContact(op.param1,"ua45a39439ea66b2b251ece1d37fbe251")
 
         if op.type == 13:
             if mid in op.param3:
@@ -3388,7 +3310,7 @@ def bot(op):
                                boy.sendMessage(msg.to,str(helpMessage))
                                boy.sendMessage(msg.to,str(helpMessage1))
                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~mostarz✪·[► \n╚═══════════════════════╝")
-                               boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                               boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
                         if cmd == "self on":
                             if msg._from in admin:
@@ -3409,7 +3331,7 @@ def bot(op):
                                boy.sendMessage(msg.to, "Help Bots\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage2))
                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~mostarz✪·[► \n ╚═══════════════════════╝")
-                               boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                               boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
                         elif cmd == "help bot":
                           if wait["selfbot"] == True:
@@ -3420,7 +3342,7 @@ def bot(op):
                                boy.sendMessage(msg.to, "Help Bots\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage3))
                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~mostarz✪·[► \n ╚═══════════════════════╝")
-                               boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                               boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
 
                         elif cmd == "meme":
@@ -3432,7 +3354,7 @@ def bot(op):
                                boy.sendMessage(msg.to, "Help Fun\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage4))
                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~mostarz✪·[► \n╚═══════════════════════╝")
-                               boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                               boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
                         if cmd == "un on":
                             if msg._from in admin:
@@ -3495,7 +3417,7 @@ def bot(op):
                                 boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
                                 boy.sendMessage(msg.to,"╔═══════════════════════╗\n ◄]·✪line.me/R/ti/p/~mostarz✪·[► \n╚═══════════════════════╝"
 )
-                                boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                                boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
 
                         elif cmd == "creat" or text.lower() == 'creat':
@@ -3559,7 +3481,7 @@ def bot(op):
                                 zxc += pesan2
                                 text = xpesan + zxc + ret_ + ""
                                 boy.sendMessage(to, text, contentMetadata={'MENTION':str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}, contentType=0)
-                                boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                                boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
                             except Exception as e:
                                 boy.sendMessage(msg.to, str(e))
 
@@ -3708,7 +3630,7 @@ def bot(op):
                                bot = "в๏ҭ ҭєใคђ คкҭīғ รєใค๓ค" +waktu(eltime)
                                boy.sendMessage(msg.to,bot)
                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n ◄]·✪line.me/R/ti/p/~mostarz✪·[► \n╚═══════════════════════╝")
-                               boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                               boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
                         elif cmd == "gi":
                           if msg._from in admin:
@@ -4175,7 +4097,7 @@ def bot(op):
                                     mc += str(c) + ". " +boy.getContact(m_id).displayName + "\n"
                                 boy.sendMessage(msg.to,"❂͜͡☬➣ ⊰์◉⊱ ค๔๓īก τ∉∂m d®∂ⓖ๏n ❂Ғ w∂®®¡๏® ⊰์◉⊱™️ BOT\n\n❂͜͡☬➣Creator BOT:\n"+ma+"\n❂͜͡☬➣ค๔๓īก :\n"+mb+"\n❂͜͡☬➣รҭคғғ :\n"+mc+"\n❂͜͡☬➣ҭ๏ҭคใ「%s」❍✯͜͡⊰์◉⊱ ค๔๓īก τ∉∂m d®∂ⓖ๏n ❂Ғ w∂®®¡๏® ⊰์◉⊱™️✯͜͡❂➣" %(str(len(owner)+len(admin)+len(staff))))
                                 boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~mostarz✪·[► \n╚═══════════════════════╝")
-                                boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                                boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
                         elif cmd == "lp":
                           if wait["selfbot"] == True:
@@ -4217,7 +4139,7 @@ def bot(op):
                                     me += str(e) + ". " +boy.getGroup(group).name + "\n"
                                 boy.sendMessage(msg.to,"❂͜͡☬➣ ๔гคง๏ก рг๏ҭєςҭī๏ก \n\n❂͜͡☬➣ рг๏ҭєςҭ มгใ :\n"+ma+"\n❂͜͡☬➣ рг๏ҭєςҭ кīςк :\n"+mb+"\n❂͜͡☬➣ рг๏ҭєςҭ ♩๏īก :\n"+md+"\n❂͜͡☬➣ рг๏ҭєςҭ ςคกςєใ :\n"+mc+"\n❂͜͡☬➣ рг๏ҭєςҭ īกⅴīҭє :\n"+me+"\nҭ๏ҭคใ「%s」рг๏ҭєςҭ ұคกง คкҭīғ" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
                                 boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~mostarz✪·[► \n╚═══════════════════════╝")
-                                boy.sendContact(to, "u35577e52b245ace6deb64e33a301f3b0")
+                                boy.sendContact(to, "ua45a39439ea66b2b251ece1d37fbe251")
 
                         elif cmd == "bro":
                           if wait["selfbot"] == True:
